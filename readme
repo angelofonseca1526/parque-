@@ -1,0 +1,34 @@
+# Parque de Diversão
+
+
+o programa verifica se a pessoa pode entrar nos brinquedos olhando a idade e a altura
+
+tambem verifica se precisa de acompanhante no caso de crianças e idosos
+
+brinquedos
+
+- Casa Assombrada mais de 18 anos e altura de 170cm
+- Montanha Russa altura minima de 170cm
+- Carrinho de bate-bate sem restrições
+
+arquivos
+
+- App.js parte principal do programa
+- calculadoras.js faz os calculos
+- rules.json guarda as regras
+- rules.js verifica se pode entrar
+- package.json inicia o projeto
+
+para executar abrir o terminal na pasta do projeto e digitar
+
+```bash
+npm start -- "João" "2000-05-10" "1.75" "Casa Assombrada" "2026-11-17" "Carlos"
+```
+
+ordem dos dados
+
+1 nome
+2 nascimento
+3 altura
+4 brinquedo
+5 data da visita
