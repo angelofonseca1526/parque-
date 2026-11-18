@@ -1,0 +1,9 @@
+{
+  "name": "ex-parque-diversao",
+  "version": "1.0.0",
+  "description": "Exercicio de JavaScript - Parque de Diversao",
+  "main": "App.js",
+  "scripts": {
+    "start": "node App.js"
+  }
+}
